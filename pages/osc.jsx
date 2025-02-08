@@ -23,8 +23,10 @@ const Contributions = () => {
             Experience
         </div>
         
-        <div className="sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
-        <Image className="mt-2 mb-2 ml-10 rounded-full border-white border-2 border-solid " alt="lgcy logo" src="/media/contributions/image.png" height={200} width={200}></Image>
+       <a href="https://lgcy.ltd" target='_blank'> <div className="sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
+        <Image className="mt-2 mb-2 ml-10 rounded-full border-white border-2 border-solid " alt="lgcy logo" src="/media/contributions/image.png" height={200} width={200}style={{ transform: "scale(1)", transition: "transform 0.3s ease-in-out" }}
+  onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.3)")}
+  onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}></Image>
         
         <div className="text-5xl font-bold text-blue-400">lgcy - Share Your Story</div>
             <div className="text-xl mt-4">Software Engineer | Remote (US) | Oct' 24 - Present </div>
@@ -32,36 +34,40 @@ const Contributions = () => {
             Contributed to the creation of an AI-powered virtual influencer by fine-tuning large language models (LLMs) to develop a unique, engaging personality that resonated with users. Integrated conversational AI capabilities to enable dynamic, context-aware interactions, personalized recommendations, and participation in trending social media activities, significantly enhancing user engagement and interaction. Additionally, led the development of a comprehensive analytics dashboard for the social media platform, providing real-time insights into user engagement, content performance, and audience demographics through intuitive visualizations and tools.
              </div>
         </div>
+        </a>
 
+    <a href="https://thecareercompany.in/" target='_blank'>
         <div className="ml-auto sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
-        <Image className="ml-auto mr-10 rounded-full border-white border-2 border-solid " alt="tcc logo" src="/media/images/image.png" height={200} width={200}></Image>
+        <Image className="ml-auto mr-10 rounded-full border-white border-2 border-solid" alt="tcc logo" src="/media/images/image.png" height={200} width={200}style={{ transform: "scale(1)", transition: "transform 0.3s ease-in-out" }}
+  onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.3)")}
+  onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}></Image>
         
         <div className="text-5xl font-bold text-blue-400">The Career Company</div>
             <div className="text-xl mt-4">Software Engineering Intern | Remote (India) | May' 24 - Aug' 24 </div>
             <div className="mt-4">
             Played a pivotal role in the development of a robust job scraping system that streamlined the collection of job listings from various sources, providing users with a seamless and comprehensive job search experience. Actively contributed to the integration of AI technologies, enabling features such as intelligent matching and enhanced personalization across the platform. Spearheaded the creation of a mentor booking system, facilitating smooth scheduling and communication between users and mentors. Additionally, led the development of an AI-powered resume feature, which allowed users to generate and customize professional resumes using AI-driven suggestions, significantly improving user experience and operational efficiency. </div>
         </div>
-        <div className="sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
-        <Image className="mt-2 mb-2 ml-10 rounded-full border-white border-2 border-solid " alt="tls logo" src="/media/images/turiyam.png" height={200} width={200}></Image>
-        
-        <div className="text-5xl font-bold text-blue-400">Turiyam Lifestyles</div>
-            <div className="text-xl mt-4">Software Engineering Intern | Remote (India) | May' 23 - Aug' 23 </div>
-            <div className="mt-4">
-            Developed and managed a scalable e-commerce platform using Python and MySQL, ensuring efficient handling of core business functions like inventory management, user authentication, and order tracking. Leveraged Flask to build secure backend services, including robust payment processing to maintain reliability and trust. Additionally, created an employee commission system that streamlined the calculation and distribution of commissions based on sales performance. Designed and implemented a dedicated portal for employees, allowing them to manage their referrals and track the people they brought into the system.  </div>
-        </div>
+        </a>
 
-        <div className="ml-auto sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
-        <Image className="ml-auto mr-10 rounded-full border-white border-2 border-solid " alt="chegg logo" src="/media/skills/image.png" height={200} width={200}></Image>
+    <a href="https://www.chegg.com/" target='_blank'>
+        <div className=" sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
+        <Image className="mr-10 rounded-full border-white border-2 border-solid "  src="/media/skills/chegg.png" alt="chegg logo" height={200} width={200}style={{ transform: "scale(1)", transition: "transform 0.3s ease-in-out" }}
+  onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.3)")}
+  onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}></Image>
         
-        <div className="text-5xl font-bold text-blue-400">Chegg India</div>
+        <div className="text-5xl font-bold text-blue-400">Chegg</div>
             <div className="text-xl mt-4">Computer Science Specialist | Remote (India) | Nov' 22 - Feb' 23 </div>
             <div className="mt-4">
             Assisted more than 50 computer science students by delivering in-depth responses to their inquiries across various domains, such as Machine Learning, Data Structures and Algorithms, and Software Development. Maintained a rating of above 90% throughout. </div>
         
         
     </div>
-    <div className="sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
-        <Image className="mt-2 mb-2 ml-10 rounded-full border-white border-2 border-solid " alt="tls logo" src="/media/skills/spark.png" height={200} width={200}></Image>
+    </a>
+    <a href="https://sparkcareermentors.com/" target='_blank'>
+    <div className="ml-auto sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
+        <Image className="ml-auto mt-2 mb-2 ml-10 rounded-full border-white border-2 border-solid " alt="tls logo" src="/media/skills/spark.png" height={200} width={200}style={{ transform: "scale(1)", transition: "transform 0.3s ease-in-out" }}
+  onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.3)")}
+  onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}></Image>
         
         <div className="text-5xl font-bold text-blue-400">Spark Career Mentors</div>
             <div className="text-xl mt-4">Mathematics Asessment Creator | Remote (India) | Sep' 22 - Nov' 22 </div>
@@ -70,6 +76,20 @@ const Contributions = () => {
            Probability, Statistics and Linear Algebra.
            </div>
     </div>
+    </a>
+     <div className='flex justify-center mb-10'>
+            <h1 className="text-4xl lg:text-6xl text-blue-500 font-extrabold"> Freelance/Volunteer Work</h1>
+           </div>
+           <div className='pl-20 justify-items-center text-2xl'>
+            <h1 className='mb-5 '> As a Freelance Developer helped 3+ companies in setting up their website including <a href="https://turiyamlifestyle.com/" className='text-blue-400 underline'> Turiyam Lifestyle Fashion </a></h1> 
+            <h1 className='mb-5'>  Led the development of Website and Metaverse of Tirutsava as Head of Web Dev Team of Tirutsava </h1>
+            <h1 className='mb-5'> Held the position of Competitive Programming Head and Quantative Development Head in pre-final year. </h1>
+            <h1 className='mb-5'> Led the website development of Entrepreneur Cell and Statistics Club of IIT Tirupati. </h1>
+            
+            <h1 className='mb-5'> Represented Institute as Internship Representative in pre-final year and Placement Representative in final year </h1>
+            
+            
+          </div>
     </div>
   )
 }

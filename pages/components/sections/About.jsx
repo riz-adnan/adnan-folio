@@ -1,10 +1,7 @@
 import React,{ useRef } from 'react'
 import { motion,useTransform,useScroll} from "framer-motion"
-import Lottie from "lottie-react";
-import Scroll from './Scroll';
-import Parallax from './Parallax';
-import about from "../../../public/media/lotties/FloatingYogaMan(About).json";
 
+import Scroll from './Scroll';
 
 const boxVariants = {
     initial:{

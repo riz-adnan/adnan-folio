@@ -3,13 +3,12 @@ import React, { useEffect,useRef,useState} from "react";
 import { motion,useTransform,useScroll } from 'framer-motion'
 import { useSpring,animated } from "react-spring"
 import { gsap,CSSPlugin } from "gsap"
-import Lottie from "lottie-react";
+
 import About from './About'
 import SkillsCarousel from "./SkillsCarousel";
 import Projects from './Projects'
 import Parallax from "./Parallax";
 import Contact from "./Contact";
-import threedSpheres from "../../../public/media/lotties/3dSpheres(Home).json";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub,FiInstagram } from "react-icons/fi";
 import Contributions from "../../osc";
@@ -80,8 +79,7 @@ const Home = () => {
           <div className="w-4/5 pt-20 m-auto border-0 border-red-500 opacity-1" id="main">
             <div className="z-0 text-2xl font-normal tracking-tighter text-white border-0 border-red-500 font-change2">
               <div className="absolute right-0 w-2/5 text-5xl border-0 border-red-500 sm1:hidden lg:block">
-                <Lottie animationData={threedSpheres} className="z-0 grayscale invert" loop={true}/>
-              </div>
+                 </div>
               <motion.span className="sm1:text-4xl md:text-5xl lg:text-6xl absolute lg:top-[15rem] md:top-[15.5rem]">Hello</motion.span>
               <span className="border-0 border-red-500 absolute top-[16.5rem] xl:left-[18rem] lg:left-[15rem] md:left-[11.5rem]">&nbsp; I&apos;m </span>
               <span className="text-blue-400 border-0 border-red-500 absolute top-[16.5rem] xl:left-[20.8rem] lg:left-[17.5rem] md:left-[14.2rem]">&nbsp;Adnan Rizvi</span>
@@ -115,8 +113,7 @@ const Home = () => {
         <div id="home" className="relative top-0 max-h-screen bg-cover border-0 border-red-500 sm1:block md:hidden">
           <div className="w-full pt-20 m-auto border-0 border-red-500 opacity-1" id="main">
             <div className="absolute w-2/5 text-5xl border-0 border-red-500 -right-4">
-              <Lottie animationData={threedSpheres} className="grayscale invert" loop={true}/>
-            </div>
+              </div>
             <motion.div style={{ x:toRight2 }} className="top-[12rem] absolute text-blue-400/50 overflow-hidden whitespace-nowrap font-stencil24 text-6xl font-extrabold">web web web web web web web web web web web web web web web web web web web web</motion.div>
             <motion.div style={{ x:toRight2 }} className="top-[15rem] absolute text-blue-400/50 overflow-hidden whitespace-nowrap font-stencil24 text-6xl font-extrabold">web web web web web web web web web web web web web web web web web web web web</motion.div>
             <motion.div style={{ x:toRight2 }} className="top-[18rem] absolute text-blue-400/50 overflow-hidden whitespace-nowrap font-stencil24 text-6xl font-extrabold">web web web web web web web web web web web web web web web web web web web web</motion.div>

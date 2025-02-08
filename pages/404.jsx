@@ -22,7 +22,7 @@ const ErrorPage = () =>{
         </div>
         <div className='relative z-20 flex justify-center m-auto border-0 border-red-500 sm1:-mt-10 lg:-mt-10 2xl:-mt-20 2xl:lg:w-2/5 lg:w-3/5 sm2:w-4/5'>
             <button onMouseEnter={getHover} onMouseLeave={escapeHover} className='md:w-1/3 sm1:p-2 md:p-4 m-auto font-bold text-center text-black border-2 border-black rounded-0 hover:scale-[1.1] transform transition ease-in-out duration-300'><Link href="/" className=''>Back to Home</Link></button>
-            <button onMouseEnter={getHover} onMouseLeave={escapeHover} className='md:w-1/3 sm1:p-2 md:p-4 m-auto font-bold text-center text-black border-2 border-black rounded-0 hover:scale-[1.1] transform transition ease-in-out duration-300'><Link href="mailto:anantjain.8k@gmail.com" className=''>Report an Error</Link></button>
+            <button onMouseEnter={getHover} onMouseLeave={escapeHover} className='md:w-1/3 sm1:p-2 md:p-4 m-auto font-bold text-center text-black border-2 border-black rounded-0 hover:scale-[1.1] transform transition ease-in-out duration-300'><Link href="mailto:rizviadnan79@gmail.com" className=''>Report an Error</Link></button>
         </div>
     </div>
   )

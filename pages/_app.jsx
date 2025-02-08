@@ -13,6 +13,11 @@ const notoSans = Noto_Sans({
 
 const MyApp = ({ Component, pageProps }) => {
   const [ loading,setLoading ] = useState(true)
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []); 
+
   useEffect(() => {
     setTimeout(() => setLoading(false),8000)
   })
