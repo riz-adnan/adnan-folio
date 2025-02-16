@@ -136,9 +136,10 @@ const Projects = () => {
           <div className="bg-cover sm1:w-full lg:w-1/2">
             <div className="m-auto mt-16 mb-16 text-white sm1:p-8 md:p-20 lg:p-4 xl:p-20 sm1:w-full lg:w-4/5 rounded-3xl bg-black/20 backdrop-filter backdrop-blur-sm">
               <div className="flex justify-between">
-                <p className="text-5xl font-extrabold underline underline-offset-8">
+                <a href="https://chimerical-pastelito-a94a3f.netlify.app/" target="_blank"><p className="text-5xl font-extrabold underline underline-offset-8">
                   GamETHa <span className="text-blue-400">Gaming Platform</span>
                 </p>
+                </a>
                 <a
                   href="https://github.com/riz-adnan/GamETHa"
                   target="_blank"
@@ -202,9 +203,10 @@ const Projects = () => {
           <div className="bg-cover sm1:w-full lg:w-1/2">
             <div className="m-auto mt-16 mb-16 text-white sm1:p-8 md:p-20 lg:p-4 xl:p-20 sm1:w-full lg:w-4/5 rounded-3xl bg-black/20 backdrop-filter backdrop-blur-sm">
               <div className="flex justify-between">
-                <p className="text-5xl font-extrabold underline underline-offset-8">
+                <a href="https://free-trade-bot.netlify.app/" target='_blank'><p className="text-5xl font-extrabold underline underline-offset-8">
                   High Frequency <span className="text-blue-400">Trade Bot</span>
                 </p>
+                </a>
                 <a
                   href="https://github.com/riz-adnan/TradeBot"
                   target="_blank"
@@ -218,7 +220,7 @@ const Projects = () => {
               <p className="mt-10 text-2xl font-extrabold text-blue-400">Links:</p>
               <div className="flex flex-wrap mt-4 -ml-2 space-x-2 space-y-2">
                 <a href="https://github.com/riz-adnan/TradeBot"><p className="p-2 mt-2 ml-2 text-blue-400 bg-white/20 rounded-xl">Github</p></a>
-                <a href="https://aptradebot.netlify.app/"><p className="p-2 mt-2 ml-2 text-blue-400 bg-white/20 rounded-xl">Live Link</p></a>
+                <a href="https://free-trade-bot.netlify.app/"><p className="p-2 mt-2 ml-2 text-blue-400 bg-white/20 rounded-xl">Live Link</p></a>
                 
 
                 {/* Add other tech stacks here */}
@@ -234,7 +236,19 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="sm1:w-full lg:w-1/2 pr-16 pt-16"></div>
+          <div className="w-full lg:w-1/2 pt-16 pr-16">
+  <div className="relative w-full pb-[56.25%] h-0"> {/* 16:9 aspect ratio */}
+    <iframe
+      className="absolute top-0 left-0 w-full h-full"
+      src="https://www.youtube.com/embed/SzJ85-m_bYw?si=5wKfhu0ODOla4ywL"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
         </div>
       </div>
 
@@ -270,9 +284,10 @@ const Projects = () => {
           <div className="bg-cover sm1:w-full lg:w-1/2">
             <div className="m-auto mt-16 mb-16 text-white sm1:p-8 md:p-20 lg:p-4 xl:p-20 sm1:w-full lg:w-4/5 rounded-3xl bg-black/20 backdrop-filter backdrop-blur-sm">
               <div className="flex justify-between">
-                <p className="text-5xl font-extrabold underline underline-offset-8">
+                <a href="https://tirutsava.com" target='_blank'><p className="text-5xl font-extrabold underline underline-offset-8">
                   Metaverse <span className="text-blue-400">Website</span>
                 </p>
+                </a>
                 
               </div>
               <p className="mt-12">
@@ -301,14 +316,14 @@ const Projects = () => {
         <div className="relative flex items-center justify-center">
           <div className="relative">
             <Image
-              src="/media/projects/portfolio/portfolio2.png"
+              src="/media/images/chain1.png"
               alt="Portfolio 2"
               width={600}
               height={1800}
               className="relative z-30 transition duration-300 ease-in-out transform -translate-x-1/2 cursor-pointer left-1/2 lg:hover:opacity-0"
             />
             <Image
-              src="/media/projects/portfolio/portfolio3.png"
+              src="/media/images/chain2.png"
               alt="Portfolio 3"
               width={600}
               height={1800}
@@ -325,9 +340,10 @@ const Projects = () => {
           <div className="bg-cover sm1:w-full lg:w-1/2">
             <div className="m-auto mt-16 mb-16 text-white sm1:p-8 md:p-20 lg:p-4 xl:p-20 sm1:w-full lg:w-4/5 rounded-3xl bg-black/20 backdrop-filter backdrop-blur-sm">
               <div className="flex justify-between">
-                <p className="text-5xl font-extrabold underline underline-offset-8">
+               <a href="https://prakharmosesok.github.io/ChainSphere/" target="_blank"> <p className="text-5xl font-extrabold underline underline-offset-8">
                   ChainSphere <span className="text-blue-400">News Portal</span>
                 </p>
+                </a>
                 <a
                   href="https://github.com/riz-adnan/ChainSphere"
                   target="_blank"
@@ -358,7 +374,19 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="sm1:w-full lg:w-1/2"></div>
+          <div className="w-full lg:w-1/2 pt-16 pr-16">
+  <div className="relative w-full pb-[56.25%] h-0"> {/* 16:9 aspect ratio */}
+    <iframe
+      className="absolute top-0 left-0 w-full h-full"
+      src="https://www.youtube.com/embed/awPF2BdwetM?si=Sn6ebMWxlKHNirDH"
+      title="YouTube video player"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
         </div>
       </div>
       <div className="relative mt-20">
@@ -402,9 +430,10 @@ const Projects = () => {
           <div className="bg-cover sm1:w-full lg:w-1/2">
             <div className="m-auto mt-16 mb-16 text-white sm1:p-8 md:p-20 lg:p-4 xl:p-20 sm1:w-full lg:w-4/5 rounded-3xl bg-black/20 backdrop-filter backdrop-blur-sm">
               <div className="flex justify-between">
-                <p className="text-5xl font-extrabold underline underline-offset-8">
+               <a href="https://therapify-free.netlify.app/" target="_blank"> <p className="text-5xl font-extrabold underline underline-offset-8">
                   Therapify <br/><span className="text-blue-400">Free Therapy Session</span>
                 </p>
+                </a>
                 <a
                   href="https://github.com/riz-adnan/Therapify"
                   target="_blank"
@@ -463,9 +492,10 @@ const Projects = () => {
           <div className="bg-cover sm1:w-full lg:w-1/2">
             <div className="m-auto mt-16 mb-16 text-white sm1:p-8 md:p-20 lg:p-4 xl:p-20 sm1:w-full lg:w-4/5 rounded-3xl bg-black/20 backdrop-filter backdrop-blur-sm">
               <div className="flex justify-between">
-                <p className="text-5xl font-extrabold underline underline-offset-8">
+                <a href="https://github.com/riz-adnan/RoadWise" target="_blank"><p className="text-5xl font-extrabold underline underline-offset-8">
                   RoadWise <br/> <span className="text-blue-400">Road Route Planner</span>
                 </p>
+                </a>
                 <a
                   href="https://github.com/riz-adnan/RoadWise"
                   target="_blank"
