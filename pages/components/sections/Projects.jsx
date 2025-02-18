@@ -510,7 +510,7 @@ const Projects = () => {
                <p className="mt-10 text-2xl font-extrabold text-blue-400">Link:</p>
               <div className="flex flex-wrap mt-4 -ml-2 space-x-2 space-y-2">
                 <a href="https://github.com/riz-adnan/RoadWise"><p className="p-2 mt-4 ml-2 text-blue-400 bg-white/20 rounded-xl">Github</p></a>
-                <a href="https://drive.google.com/file/d/1UoTy40iOsBh2_1OQhTMlZhNHkkX2UBV2/view?usp=sharing"><p className="p-2 mt-2 ml-2 text-blue-400 bg-white/20 rounded-xl">Report</p></a>
+                <a href="https://drive.google.com/file/d/1wsoqvmhNkwZfAJGvp5iui5ZWHChsJ7-m/view?usp=sharing"><p className="p-2 mt-2 ml-2 text-blue-400 bg-white/20 rounded-xl">Report</p></a>
                 <a href="https://docs.google.com/presentation/d/1RKJL6TuJo0t_PGusnXo_NRzyydhy7HKm/edit?usp=sharing&ouid=109693586806775075371&rtpof=true&sd=true"><p className="p-2 mt-2 ml-2 text-blue-400 bg-white/20 rounded-xl">Presentation</p></a>
                 {/* Add other tech stacks here */}
               </div>

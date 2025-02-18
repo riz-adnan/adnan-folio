@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         id:5,
-        linkedSection:'https://drive.google.com/file/d/1QQHl1D5ISuJLfjQQPBR812L7qhh3IGW9/view?usp=sharing',
+        linkedSection:'https://drive.google.com/file/d/1wsoqvmhNkwZfAJGvp5iui5ZWHChsJ7-m/view?usp=sharing',
         name:'Resume',
     },
 ]

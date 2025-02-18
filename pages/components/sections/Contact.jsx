@@ -82,7 +82,7 @@ const ContactNew = () => {
                                 <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://github.com/riz-adnan" target="_blank" rel="noreferrer" ><FiGithub /></a>
                                 <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://www.instagram.com/iamrizvi_adnan/" target="_blank" rel="noreferrer"><FiInstagram /></a>
                                 <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://www.linkedin.com/in/adnan-rizvi-271165227/" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
-                                <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://drive.google.com/file/d/1KgTNsw2jPpuE-QCrm2txd_l8RejSsj-M/view?usp=sharing" target="_blank"><IoDocumentTextOutline /></a>
+                                <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://drive.google.com/file/d/1wsoqvmhNkwZfAJGvp5iui5ZWHChsJ7-m/view?usp=sharing" target="_blank"><IoDocumentTextOutline /></a>
                             </div>
                         </div>           
                     </div>
@@ -167,7 +167,7 @@ const ContactNew = () => {
                                         <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://github.com/riz-adnan" target="_blank" rel="noreferrer" ><FiGithub /></a>
                                         <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://www.instagram.com/iamrizvi_adnan/" target="_blank" rel="noreferrer"><FiInstagram /></a>
                                         <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://www.linkedin.com/in/adnan-rizvi-271165227/" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
-                                        <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://drive.google.com/file/d/1KgTNsw2jPpuE-QCrm2txd_l8RejSsj-M/view?usp=sharing" target="_blank"><IoDocumentTextOutline /></a>
+                                        <a className='text-blue-400 rounded-full sm1:p-2 md:p-4 bg-blue-400/20' href="https://drive.google.com/file/d/1wsoqvmhNkwZfAJGvp5iui5ZWHChsJ7-m/view?usp=sharing" target="_blank"><IoDocumentTextOutline /></a>
                                     </div>
                                 </div>           
                             </div>
