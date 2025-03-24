@@ -23,7 +23,7 @@ const Contributions = () => {
             Experience
         </div>
         
-       <a href="https://lgcy.ltd" target='_blank'> <div className="sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
+       <a href="https://lgcy.site" target='_blank'> <div className="sm1:p-6 md:p-20 lg:w-4/5 xl:w-3/5">
         <Image className="mt-2 mb-2 ml-10 rounded-full border-white border-2 border-solid " alt="lgcy logo" src="/media/contributions/image.png" height={200} width={200}style={{ transform: "scale(1)", transition: "transform 0.3s ease-in-out" }}
   onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.3)")}
   onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}></Image>
@@ -81,7 +81,7 @@ const Contributions = () => {
             <h1 className="text-4xl lg:text-6xl text-blue-500 font-extrabold"> Freelance/Volunteer Work</h1>
            </div>
            <div className='pl-20 justify-items-center text-2xl'>
-            <h1 className='mb-5 '> As a Freelance Developer helped 3+ companies in setting up their website including <a href="https://turiyamlifestyle.com/" className='text-blue-400 underline'> Turiyam Lifestyle Fashion </a></h1> 
+            <h1 className='mb-5 '> As a Freelance Developer helped 3+ companies in setting up their website including <a href="https://cognibly-dev-gfhvbwguhrgfb5cy.centralus-01.azurewebsites.net/" className='text-blue-400 underline'> Cognibly AI </a></h1> 
             <h1 className='mb-5'>  Led the development of Website and Metaverse of Tirutsava as Head of Web Dev Team of Tirutsava </h1>
             <h1 className='mb-5'> Held the position of Competitive Programming Head and Quantative Development Head in pre-final year. </h1>
             <h1 className='mb-5'> Led the website development of Entrepreneur Cell and Statistics Club of IIT Tirupati. </h1>
